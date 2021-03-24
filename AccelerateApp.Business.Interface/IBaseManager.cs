@@ -9,5 +9,7 @@ namespace AccelerateApp.Business.Interface
         Task<List<BaseVertical>> GetVerticalData();
         Task<List<BaseHorizantal>> GetHorizantalData();
 
+       // these 2 methods of interface 
+
     }
 }

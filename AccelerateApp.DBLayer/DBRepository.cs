@@ -61,7 +61,8 @@ namespace AccelerateApp.DBLayer
 
     public static class App_Constants
     {
-        public static readonly string DB_Local_CoonectionString = "Data Source=DESKTOP-MN5GRV4\\SQLEXPRESS;Initial Catalog=AccelerateTask;user ID=sa;pwd=arun;";
+        public static readonly string DB_Local_CoonectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=AccelerateDB;Integrated Security=true;";
+
 
         public static readonly string sp_DeliveryUnit = "USP_AT_DeliveryUnit";
     }

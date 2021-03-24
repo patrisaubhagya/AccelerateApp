@@ -9,5 +9,6 @@ namespace AccelerateApp.Repository.Interface
         Task<List<BaseVertical>> GetVerticalData();
         Task<List<BaseHorizantal>> GetHorizantalData();
 
+       // these 2 methods of interface both are exact
     }
 }
